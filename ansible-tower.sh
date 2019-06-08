@@ -23,7 +23,8 @@ install_AnsibleTower() {
     sed -i "/pg_password/c\pg_password='password'" ./ansible-tower-setup-3.1.5/inventory
     sed -i "/rabbitmq_password/c\rabbitmq_password='password'" ./ansible-tower-setup-3.1.5/inventory
     sed -i '42s/state: running/state: started/' ./ansible-tower-setup-3.1.5/roles/rabbitmq/tasks/main.yml
-    ./setup.sh
+    cd ansible-tower-setup-3.1.5/
+    sh setup.sh
     echo -e "$1 installed"
 }
 
