@@ -248,11 +248,11 @@
               "typeHandlerVersion": "2.0",
               "autoUpgradeMinorVersion": true,
               "settings": {
-                "fileUris": ["https://raw.githubusercontent.com/sangaml/Agentnode_Ansible_Centos/master/ansible-tower.sh"
+                "fileUris": ["https://raw.githubusercontent.com/sangaml/Agentnode_Ansible_Centos/master/ansibleTower_azurecli.sh"
                 ]
               },
               "protectedSettings": {
-                "commandToExecute": "./ansible-tower.sh"  
+                "commandToExecute": "./ansibleTower_azurecli.sh"  
               }
             }
         }
