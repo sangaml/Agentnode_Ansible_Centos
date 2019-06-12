@@ -41,9 +41,12 @@
             "type": "string",
             "defaultValue": "sdfghj"
             },
-            "publicIPAddressName": {
-                "type": "string"
-                },
+        
+        "publicIPAddressName": {
+            "type": "string",
+            "defaultValue": "mypublicip"
+            },
+        
         "vmSize": {
             "type": "string",
             "defaultValue": "Standard_D1",
@@ -224,6 +227,7 @@
                 ]
               },
               "protectedSettings": {
+                "centosuser": "[parameters('adminUsername')]",
                 "commandToExecute": "./agentnode.sh"  
               }
             }
