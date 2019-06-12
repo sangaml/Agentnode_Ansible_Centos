@@ -227,7 +227,7 @@
                 ]
               },
                 "protectedSettings": {
-                    "commandToExecute": "./agentnode.sh centosuser=[parameters('adminUsername')]"
+                    "commandToExecute": "./agentnode.sh centosuser=admin123"
                 }
             }
         }
