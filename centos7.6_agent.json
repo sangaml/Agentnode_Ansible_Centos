@@ -227,7 +227,7 @@
                 ]
               },
                 "protectedSettings": {
-                    "commandToExecute": "./ansibleTower_azurecli.sh centosuser=[parameters('adminUsername')]"
+                    "commandToExecute": "./agentnode.sh centosuser=[parameters('adminUsername')]"
                 }
             }
         }
