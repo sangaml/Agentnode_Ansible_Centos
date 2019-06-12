@@ -226,10 +226,9 @@
                 "fileUris": ["https://raw.githubusercontent.com/sangaml/Agentnode_Ansible_Centos/master/agentnode.sh"
                 ]
               },
-              "protectedSettings": {
-                "centosuser": "[parameters('adminUsername')]",
-                "commandToExecute": "./agentnode.sh"  
-              }
+                "protectedSettings": {
+                    "commandToExecute": "./ansibleTower_azurecli.sh centosuser=[parameters('adminUsername')]"
+                }
             }
         }
     
